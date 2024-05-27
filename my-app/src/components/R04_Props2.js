@@ -1,0 +1,22 @@
+
+import React from "react";
+
+const PropsEx= (props)=>{
+// props : 부모 컴포넌트로 부터 전달 받은 값을 담은 객ㄱ테
+
+//JS 변수 선언/초기화 방법 중 하나
+// 우변(props) 객체의 key값이
+// 좌변에 작성된 변수명과 같다면
+// 자동으로 대입
+const {name, age, gender} = props ;
+
+return(
+    <div className="info">
+        이름 : {name} / 나이{age} /성별{gender}
+    </div>
+);
+}
+
+
+
+export default PropsEx;
