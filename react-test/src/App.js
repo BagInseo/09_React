@@ -1,9 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
 
+import NumberPlusMinus from './components/NumberPlusMinus';
+
 function App() {
   return (
-    <h1>코드 작성</h1>
+    <NumberPlusMinus/>
   );
 }
 
